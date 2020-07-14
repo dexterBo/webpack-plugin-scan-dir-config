@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`使用函数定制输入 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "innerHTML": "by fn",
+      "selfClosingTag": false,
+      "tagName": "div",
+      "voidTag": false,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加单个before body内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "href": "favicon.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加单个before body和after body内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "href": "before.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "after.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加单个before head内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "attributes": Object {
+        "href": "favicon.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加单个before head和after head内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "attributes": Object {
+        "href": "before.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+    Object {
+      "attributes": Object {
+        "href": "after.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+  ],
+}
+`;
+
+exports[`添加单个body内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "id": "app",
+      },
+      "selfClosingTag": false,
+      "tagName": "div",
+      "voidTag": false,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加单个head内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+    Object {
+      "attributes": Object {
+        "href": "favicon.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+  ],
+}
+`;
+
+exports[`添加多个before body和after body内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "href": "before1.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "before2.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "after1.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "after2.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加多个before head和after head内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "attributes": Object {
+        "href": "before1.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "before2.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+    Object {
+      "attributes": Object {
+        "href": "after1.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "after2.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+  ],
+}
+`;
+
+exports[`添加多个body内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "id": "app",
+      },
+      "selfClosingTag": false,
+      "tagName": "div",
+      "voidTag": false,
+    },
+    Object {
+      "attributes": Object {
+        "class": "red",
+      },
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+  ],
+}
+`;
+
+exports[`添加多个head内容 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "attributes": Object {
+        "content": "汉得供应链金融前端团队",
+        "name": "author",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "content": "no-cache",
+        "http-equiv": "pragma",
+      },
+      "selfClosingTag": false,
+      "tagName": "meta",
+      "voidTag": true,
+    },
+  ],
+  "head": Array [
+    Object {
+      "innerHTML": "<a>hello word</a>",
+      "selfClosingTag": false,
+      "tagName": "span",
+      "voidTag": false,
+    },
+    Object {
+      "attributes": Object {
+        "href": "favicon.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+    Object {
+      "attributes": Object {
+        "href": "favicon2.ico",
+        "rel": "shortcut icon",
+      },
+      "selfClosingTag": false,
+      "tagName": "link",
+      "voidTag": true,
+    },
+  ],
+}
+`;

@@ -1,0 +1,46 @@
+{
+  "name": "@upman/webpack-plugin-html-append-tag",
+  "version": "2.0.0-alpha.61",
+  "description": "添加html模板中的内容",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "lib/",
+    "!/**/__test__/",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "scripts": {
+    "lint": "eslint lib/",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haimeiyou.git"
+  },
+  "keywords": [
+    "upman"
+  ],
+  "author": "joyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haimeiyou"
+  },
+  "homepage": "https://github.com/haimeiyou#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@upman/jest-plugin-lib": "alpha",
+    "@upman/jest-plugin-mzfs": "alpha",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^24.9.0"
+  },
+  "gitHead": "3cf18e1232af625d7ea22202091aec78a9e0c2b5"
+}
